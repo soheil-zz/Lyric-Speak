@@ -53,7 +53,7 @@
 					<object class="IBUILabel" id="543492086">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 116}, {280, 134}}</string>
+						<string key="NSFrame">{{20, 116}, {280, 11}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="535944756"/>
@@ -88,7 +88,7 @@
 					<object class="IBUITextView" id="535944756">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{11, 263.94499999999999}, {298, 135}}</string>
+						<string key="NSFrame">{{11, 130.94499999999999}, {298, 268}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="222741203"/>
@@ -151,7 +151,7 @@
 					<object class="IBUITextField" id="565242544">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{-53, 42}, {427, 35}}</string>
+						<string key="NSFrame">{{5, 42}, {315, 35}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="728089424"/>
@@ -165,7 +165,7 @@
 						<reference key="IBUITextColor" ref="376371729"/>
 						<int key="IBUITextAlignment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
-						<float key="IBUIMinimumFontSize">17</float>
+						<float key="IBUIMinimumFontSize">7</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocorrectionType">1</int>
 							<int key="IBUIReturnKeyType">6</int>

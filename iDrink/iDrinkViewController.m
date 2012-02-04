@@ -324,7 +324,7 @@ static NSString* kAppId = @"116669421761762";
         facebookButton.hidden = NO;
         tweetButton.hidden = NO;
         topField.text = [lines objectAtIndex:0];
-        label1.text = [lines objectAtIndex:1];
+//        label1.text = [lines objectAtIndex:1];
         label2.text = [lines objectAtIndex:2];
         
         [self addDrinkToCocktailBook:topField.text];
