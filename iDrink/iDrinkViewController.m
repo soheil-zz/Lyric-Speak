@@ -289,7 +289,7 @@ static NSString* kAppId = @"116669421761762";
     loadingView = [LoadingView loadingViewInView:self.view];
     NSLog (@"audioRecorderDidFinishRecording:successfully:");
     
-    NSString *urlString = @"http://pubbay.com/pub/speech/movie.php";
+    NSString *urlString = @"http://pubbay.com/pub/speech/lyric.php";
     if (!isAudio) {
         urlString = [[urlString stringByAppendingString:@"?query="]
                      stringByAppendingString: [topField.text stringByAddingPercentEscapesUsingEncoding: NSASCIIStringEncoding]];
@@ -500,9 +500,9 @@ static NSString* kAppId = @"116669421761762";
     {
         TWTweetComposeViewController *tweetSheet = 
         [[TWTweetComposeViewController alloc] init];
-        [tweetSheet setInitialText:[NSString stringWithFormat: @"I looked up the #movie %@!", topField.text]];
+        [tweetSheet setInitialText:[NSString stringWithFormat: @"I looked up the #lyric for #%@!", topField.text]];
         [tweetSheet addURL:[NSURL URLWithString:
-                            [NSString stringWithFormat: @"http://www.jog-a-lot.com/movie-speak/%@", 
+                            [NSString stringWithFormat: @"http://www.jog-a-lot.com/lyric-speak/%@", 
                              [topField.text stringByReplacingOccurrencesOfString:@" " withString:@"+"]]]];
         [tweetSheet addImage:[UIImage imageNamed:@"Default.png"]];
         [self presentModalViewController:tweetSheet animated:YES];
@@ -556,47 +556,6 @@ static NSString* kAppId = @"116669421761762";
      performSelector:@selector(removeView)
      withObject:nil
      afterDelay:.1];
-}
-
-- (void)delayedPlay
-{
-    /*
-     ctl2 = [[MPMoviePlayerViewController alloc] initWithContentURL: videoURL];
-     
-     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedPlaying:) name:MPMoviePlayerPlaybackDidFinishNotification object:[ctl2 moviePlayer]];
-     //ctl.movieControlMode = MPMovieControlModeHidden;				
-     
-     player = [ctl2 moviePlayer];
-     player.controlStyle = MPMovieControlStyleFullscreen;
-     [self.view addSubview:ctl2.view];
-     
-     //[ctl setOrientation:UIDeviceOrientationLandscapeLeft animated:NO]; removing this caused the video to start playing audio			
-     
-     [player play];
-     */
-    /*player =[[MPMoviePlayerController alloc] initWithContentURL: videoURL];
-     [[player view] setFrame: [self.view bounds]];
-     [self.view addSubview: [player view]];*/
-    
-    /*[[NSNotificationCenter defaultCenter] addObserver:self 
-     selector:@selector(finishedPlaying) 
-     name:MPMoviePlayerPlaybackDidFinishNotification 
-     object:player];*/
-    
-    //[player setControlStyle:MPMovieControlStyleFullscreen];
-    //[player setMovieSourceType:MPMovieSourceTypeStreaming];
-    //[player setFullscreen:YES];
-    
-    //[player play];
-    /*
-     // Create custom movie player   
-     moviePlayer = [[CustomMoviePlayerViewController alloc] initWithPath:videoURL.path];
-     
-     // Show the movie player as modal
-     [self presentModalViewController:moviePlayer animated:YES];
-     
-     // Prep and play the movie
-     [moviePlayer readyPlayer]; */
 }
 
 - (void)finishedPlaying
@@ -920,12 +879,12 @@ static NSString* kAppId = @"116669421761762";
 - (IBAction)publishStream:(id)sender {
     NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
             kAppId, kAppId,
-            [NSString stringWithFormat: @"http://www.jog-a-lot.com/movie-speak/%@", topField.text], @"link",
-            @"http://www.jog-a-lot.com/images/movie-speak-small.gif", @"picture",
-            @"Free Movie Speak iPhone app", @"name",
-            @"Look up a Movie", @"caption",
-            [NSString stringWithFormat: @"I just looked up the movie %@!", topField.text], @"description",
-            [NSString stringWithFormat: @"I just looked up the movie %@!", topField.text], @"message",
+            [NSString stringWithFormat: @"http://www.jog-a-lot.com/lyric-speak/%@", topField.text], @"link",
+            @"http://www.jog-a-lot.com/images/lyric-speak-small.gif", @"picture",
+            @"Free Lyric Speak iPhone app", @"name",
+            @"Look up a Lyric", @"caption",
+            [NSString stringWithFormat: @"I just looked up the lyric for %@!", topField.text], @"description",
+            [NSString stringWithFormat: @"I just looked up the lyric for %@!", topField.text], @"message",
                                    nil];
     
     [_facebook dialog:@"feed" andParams:params andDelegate:self];

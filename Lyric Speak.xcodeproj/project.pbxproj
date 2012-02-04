@@ -55,10 +55,11 @@
 		15ED3B2E13DCC84800315486 /* twitter-logo-twit.png in Resources */ = {isa = PBXBuildFile; fileRef = 15ED3B2B13DCC84800315486 /* twitter-logo-twit.png */; };
 		15ED3B3113DCC85700315486 /* TwitterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED3B3013DCC85700315486 /* TwitterAgent.m */; };
 		15ED3B3413DCC86A00315486 /* BusyAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED3B3313DCC86A00315486 /* BusyAgent.m */; };
-		5BCBE2E114DA6DAF00788C61 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBE2DD14DA6DAF00788C61 /* 57.png */; };
-		5BCBE2E214DA6DAF00788C61 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBE2DE14DA6DAF00788C61 /* 72.png */; };
-		5BCBE2E314DA6DAF00788C61 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBE2DF14DA6DAF00788C61 /* 114.png */; };
-		5BCBE2E414DA6DAF00788C61 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBE2E014DA6DAF00788C61 /* Default.png */; };
+		5BDF62C314DCE25100F3FABB /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF62C214DCE25100F3FABB /* 57.png */; };
+		5BDF62C614DCE26000F3FABB /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF62C414DCE26000F3FABB /* 72.png */; };
+		5BDF62C714DCE26000F3FABB /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF62C514DCE26000F3FABB /* 114.png */; };
+		5BDF62CA14DCE26900F3FABB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF62C814DCE26900F3FABB /* Default.png */; };
+		5BDF62CB14DCE26900F3FABB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF62C914DCE26900F3FABB /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,13 +111,13 @@
 		15E15FD713DDCFEE006ABFE6 /* TwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequest.h; sourceTree = "<group>"; };
 		15E15FD813DDCFEE006ABFE6 /* TwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequest.m; sourceTree = "<group>"; };
 		15E771F613CB5BEE003B3D56 /* FlipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipView.xib; sourceTree = "<group>"; };
-		15E7FE8713CACDF0007E1655 /* Movie Speak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Speak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E7FE8713CACDF0007E1655 /* Lyric Speak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lyric Speak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E7FE8B13CACDF0007E1655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15E7FE8D13CACDF0007E1655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15E7FE8F13CACDF0007E1655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15E7FE9313CACDF0007E1655 /* Movie Speak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movie Speak-Info.plist"; sourceTree = "<group>"; };
+		15E7FE9313CACDF0007E1655 /* Lyric Speak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyric Speak-Info.plist"; sourceTree = "<group>"; };
 		15E7FE9513CACDF0007E1655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		15E7FE9713CACDF0007E1655 /* Movie Speak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movie Speak-Prefix.pch"; sourceTree = "<group>"; };
+		15E7FE9713CACDF0007E1655 /* Lyric Speak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyric Speak-Prefix.pch"; sourceTree = "<group>"; };
 		15E7FE9813CACDF0007E1655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15E7FE9A13CACDF0007E1655 /* iDrinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDrinkAppDelegate.h; sourceTree = "<group>"; };
 		15E7FE9B13CACDF0007E1655 /* iDrinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrinkAppDelegate.m; sourceTree = "<group>"; };
@@ -136,10 +137,11 @@
 		15ED3B3013DCC85700315486 /* TwitterAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterAgent.m; path = TwitterAgent/TwitterAgent.m; sourceTree = "<group>"; };
 		15ED3B3213DCC86A00315486 /* BusyAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusyAgent.h; path = BusyAgent/BusyAgent.h; sourceTree = "<group>"; };
 		15ED3B3313DCC86A00315486 /* BusyAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusyAgent.m; path = BusyAgent/BusyAgent.m; sourceTree = "<group>"; };
-		5BCBE2DD14DA6DAF00788C61 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
-		5BCBE2DE14DA6DAF00788C61 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
-		5BCBE2DF14DA6DAF00788C61 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
-		5BCBE2E014DA6DAF00788C61 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BDF62C214DCE25100F3FABB /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		5BDF62C414DCE26000F3FABB /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		5BDF62C514DCE26000F3FABB /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		5BDF62C814DCE26900F3FABB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BDF62C914DCE26900F3FABB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +220,7 @@
 		15E7FE7C13CACDEF007E1655 = {
 			isa = PBXGroup;
 			children = (
-				15E7FE9113CACDF0007E1655 /* Movie Speak */,
+				15E7FE9113CACDF0007E1655 /* Speak */,
 				15E7FE8A13CACDF0007E1655 /* Frameworks */,
 				15E7FE8813CACDF0007E1655 /* Products */,
 			);
@@ -227,7 +229,7 @@
 		15E7FE8813CACDF0007E1655 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15E7FE8713CACDF0007E1655 /* Movie Speak.app */,
+				15E7FE8713CACDF0007E1655 /* Lyric Speak.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,7 +253,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		15E7FE9113CACDF0007E1655 /* Movie Speak */ = {
+		15E7FE9113CACDF0007E1655 /* Speak */ = {
 			isa = PBXGroup;
 			children = (
 				15D74EC213DCEA5A00FF27C2 /* JSON */,
@@ -284,16 +286,16 @@
 				15809FD414A18616006ECEA6 /* SKProduct+LocalizedPrice.h */,
 				15809FD514A18616006ECEA6 /* SKProduct+LocalizedPrice.m */,
 			);
-			name = "Movie Speak";
+			name = Speak;
 			path = iDrink;
 			sourceTree = "<group>";
 		};
 		15E7FE9213CACDF0007E1655 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15E7FE9313CACDF0007E1655 /* Movie Speak-Info.plist */,
+				15E7FE9313CACDF0007E1655 /* Lyric Speak-Info.plist */,
 				15E7FE9413CACDF0007E1655 /* InfoPlist.strings */,
-				15E7FE9713CACDF0007E1655 /* Movie Speak-Prefix.pch */,
+				15E7FE9713CACDF0007E1655 /* Lyric Speak-Prefix.pch */,
 				15E7FE9813CACDF0007E1655 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -302,10 +304,11 @@
 		15E7FEAB13CACE1F007E1655 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				5BCBE2DD14DA6DAF00788C61 /* 57.png */,
-				5BCBE2DE14DA6DAF00788C61 /* 72.png */,
-				5BCBE2DF14DA6DAF00788C61 /* 114.png */,
-				5BCBE2E014DA6DAF00788C61 /* Default.png */,
+				5BDF62C814DCE26900F3FABB /* Default.png */,
+				5BDF62C914DCE26900F3FABB /* Default@2x.png */,
+				5BDF62C414DCE26000F3FABB /* 72.png */,
+				5BDF62C514DCE26000F3FABB /* 114.png */,
+				5BDF62C214DCE25100F3FABB /* 57.png */,
 				15C64DB0141725B700B39AAE /* icons */,
 				157D615913EE25FB003BDFD1 /* cling_1.wav */,
 				157D615A13EE25FB003BDFD1 /* cling_2.wav */,
@@ -319,9 +322,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15E7FE8613CACDF0007E1655 /* Movie Speak */ = {
+		15E7FE8613CACDF0007E1655 /* Lyric Speak */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Movie Speak" */;
+			buildConfigurationList = 15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Lyric Speak" */;
 			buildPhases = (
 				15E7FE8313CACDF0007E1655 /* Sources */,
 				15E7FE8413CACDF0007E1655 /* Frameworks */,
@@ -331,9 +334,9 @@
 			);
 			dependencies = (
 			);
-			name = "Movie Speak";
+			name = "Lyric Speak";
 			productName = iDrink;
-			productReference = 15E7FE8713CACDF0007E1655 /* Movie Speak.app */;
+			productReference = 15E7FE8713CACDF0007E1655 /* Lyric Speak.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -344,7 +347,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Movie Speak" */;
+			buildConfigurationList = 15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Lyric Speak" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -356,7 +359,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15E7FE8613CACDF0007E1655 /* Movie Speak */,
+				15E7FE8613CACDF0007E1655 /* Lyric Speak */,
 			);
 		};
 /* End PBXProject section */
@@ -380,10 +383,11 @@
 				15C64DB6141726FA00B39AAE /* idea.png in Resources */,
 				15C64DB81417280D00B39AAE /* t.png in Resources */,
 				1598573E141C2EDE00A0141B /* menu.png in Resources */,
-				5BCBE2E114DA6DAF00788C61 /* 57.png in Resources */,
-				5BCBE2E214DA6DAF00788C61 /* 72.png in Resources */,
-				5BCBE2E314DA6DAF00788C61 /* 114.png in Resources */,
-				5BCBE2E414DA6DAF00788C61 /* Default.png in Resources */,
+				5BDF62C314DCE25100F3FABB /* 57.png in Resources */,
+				5BDF62C614DCE26000F3FABB /* 72.png in Resources */,
+				5BDF62C714DCE26000F3FABB /* 114.png in Resources */,
+				5BDF62CA14DCE26900F3FABB /* Default.png in Resources */,
+				5BDF62CB14DCE26900F3FABB /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,11 +483,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iDrink/Movie Speak-Prefix.pch";
+				GCC_PREFIX_HEADER = "iDrink/Lyric Speak-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
-				INFOPLIST_FILE = "iDrink/Movie Speak-Info.plist";
+				INFOPLIST_FILE = "iDrink/Lyric Speak-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Movie Speak";
+				PRODUCT_NAME = "Lyric Speak";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -537,11 +541,11 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iDrink/Movie Speak-Prefix.pch";
+				GCC_PREFIX_HEADER = "iDrink/Lyric Speak-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
-				INFOPLIST_FILE = "iDrink/Movie Speak-Info.plist";
+				INFOPLIST_FILE = "iDrink/Lyric Speak-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Movie Speak";
+				PRODUCT_NAME = "Lyric Speak";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -561,11 +565,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Soheil Yasrebi";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iDrink/Movie Speak-Prefix.pch";
+				GCC_PREFIX_HEADER = "iDrink/Lyric Speak-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/Users/sman/Documents/iDrink/uservoice-iphone-sdk/**";
-				INFOPLIST_FILE = "iDrink/Movie Speak-Info.plist";
+				INFOPLIST_FILE = "iDrink/Lyric Speak-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Movie Speak";
+				PRODUCT_NAME = "Lyric Speak";
 				PROVISIONING_PROFILE = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1957B817-89C3-4BF6-8BAF-07E74B6D47BE";
 				SDKROOT = iphoneos;
@@ -577,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Movie Speak" */ = {
+		15E7FE8113CACDEF007E1655 /* Build configuration list for PBXProject "Lyric Speak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15E7FEA613CACDF1007E1655 /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Movie Speak" */ = {
+		15E7FEA813CACDF1007E1655 /* Build configuration list for PBXNativeTarget "Lyric Speak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15E7FEA913CACDF1007E1655 /* Debug */,

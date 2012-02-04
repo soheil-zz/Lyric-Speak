@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Movie Speak.xcodeproj">
+      location = "self:Lyric Speak.xcodeproj">
    </FileRef>
 </Workspace>
