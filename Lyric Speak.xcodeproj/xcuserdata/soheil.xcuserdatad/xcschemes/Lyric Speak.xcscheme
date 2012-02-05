@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15E7FE8613CACDF0007E1655"
-            BuildableName = "Movie Speak.app"
+            BuildableName = "Lyric Speak.app"
             BlueprintName = "Lyric Speak"
             ReferencedContainer = "container:Lyric Speak.xcodeproj">
          </BuildableReference>
@@ -50,11 +50,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15E7FE8613CACDF0007E1655"
-            BuildableName = "Movie Speak.app"
+            BuildableName = "Lyric Speak.app"
             BlueprintName = "Lyric Speak"
             ReferencedContainer = "container:Lyric Speak.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "debug"
+            value = "TRUE"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
