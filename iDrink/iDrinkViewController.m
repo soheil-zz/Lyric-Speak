@@ -500,7 +500,7 @@ static NSString* kAppId = @"116669421761762";
     {
         TWTweetComposeViewController *tweetSheet = 
         [[TWTweetComposeViewController alloc] init];
-        [tweetSheet setInitialText:[NSString stringWithFormat: @"I looked up the #lyric for #%@!", topField.text]];
+        [tweetSheet setInitialText:[NSString stringWithFormat: @"I looked up the #song #%@!", topField.text]];
         [tweetSheet addURL:[NSURL URLWithString:
                             [NSString stringWithFormat: @"http://www.jog-a-lot.com/lyric-speak/%@", 
                              [topField.text stringByReplacingOccurrencesOfString:@" " withString:@"+"]]]];
@@ -883,8 +883,8 @@ static NSString* kAppId = @"116669421761762";
             @"http://www.jog-a-lot.com/images/lyric-speak-small.gif", @"picture",
             @"Free Lyric Speak iPhone app", @"name",
             @"Look up a Lyric", @"caption",
-            [NSString stringWithFormat: @"I just looked up the lyric for %@!", topField.text], @"description",
-            [NSString stringWithFormat: @"I just looked up the lyric for %@!", topField.text], @"message",
+            [NSString stringWithFormat: @"I just looked up the song %@!", topField.text], @"description",
+            [NSString stringWithFormat: @"I just looked up the song %@!", topField.text], @"message",
                                    nil];
     
     [_facebook dialog:@"feed" andParams:params andDelegate:self];
